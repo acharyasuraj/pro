@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Agriculture Farming</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <img src="./image/Makes_Smarter_Moves-removebg-preview (2).png" alt="">
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#market-price">Market Price</a></li>
+      <li><a href="#weather-forecast">Weather Forecast</a></li>
+      <li><a href="#equipment-price">Equipment Price</a></li>
+      <li><a href="#notice">Notice</a></li>
+      <li><a href="#about-us">About Us</a></li>
+    </ul>
+  </nav>
+
+  <section id="home">
+    <h1>Welcome To Smartkheti</h1>
+    <h2>Makes Smarter moves in Agriculture</h2>
+
+
+  </section>
+
+
+
+
+
+
+  <section id="market-price">
+
+    <!-- Market Price content goes here -->
+    <section id="market-price" style="background-image: url('path/to/your/background-image.jpg');">
+      <h2>Market Price</h2>
+      <p id="date"></p>
+
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Vegetable</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Tomatoes</td>
+              <td>Rs.20/kg</td>
+            </tr>
+            <tr>
+              <td>Cucumbers</td>
+              <td>Rs.140/kg</td>
+            </tr>
+            <tr>
+              <td>Carrots</td>
+              <td>Rs.90/kg</td>
+            </tr>
+            <tr>
+              <td>Spinach</td>
+              <td>Rs.79/bunch</td>
+            </tr>
+            <tr>
+              <td>Peppers</td>
+              <td>Rs.1000/kg</td>
+            </tr>
+            <tr>
+              <td>Tomatoes</td>
+              <td>Rs.50/kg</td>
+            </tr>
+            <tr>
+              <td>Cucumbers</td>
+              <td>Rs.49/kg</td>
+            </tr>
+            <tr>
+              <td>Carrots</td>
+              <td>Rs.99/kg</td>
+            </tr>
+            <tr>
+              <td>Spinach</td>
+              <td>Rs.79/bunch</td>
+            </tr>
+            <tr>
+              <td>Peppers</td>
+              <td>RS.1100/kg</td>
+            </tr>
+            <tr>
+              <td>Tomatoes</td>
+              <td>Rs.99/kg</td>
+            </tr>
+            <tr>
+              <td>Cucumbers</td>
+              <td>Rs.49/kg</td>
+            </tr>
+            <tr>
+              <td>Carrots</td>
+              <td>RS.99/kg</td>
+            </tr>
+            <tr>
+              <td>Spinach</td>
+              <td>Rs.79/bunch</td>
+            </tr>
+            <tr>
+              <td>Peppers</td>
+              <td>Rs.29/kg</td>
+            </tr>
+            <tr>
+              <td>Tomatoes</td>
+              <td>Rs.99/kg</td>
+            </tr>
+            <tr>
+              <td>Cucumbers</td>
+              <td>Rs.49/kg</td>
+            </tr>
+            <tr>
+              <td>Carrots</td>
+              <td>Rs.99/kg</td>
+            </tr>
+            <tr>
+              <td>Spinach</td>
+              <td>Rs.79/bunch</td>
+            </tr>
+            <tr>
+              <td>Peppers</td>
+              <td>Rs.1119/kg</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <script>
+      const currentDate = new Date();
+      const dateElement = document.getElementById('date');
+      dateElement.textContent = 'Date: ' + currentDate.toDateString();
+    </script>
+
+
+
+
+
+
+
+
+    <section id="weather-forecast">
+
+      <!-- Weather Forecast content goes here -->
+      <section id="weather-forecast">
+        <h2>Weather Forecast</h2>
+        <div id="weather-widget"></div>
+      </section>
+
+      <script>
+        // Embedding weather forecast widget
+        (function () {
+          var container = document.getElementById("weather-widget");
+          var iframe = document.createElement("iframe");
+          iframe.setAttribute("src",
+            "https://openweathermap.org/weathermap?basemap=map&cities=true&layer=temperature&lat=28.3949&lon=84.1240&zoom=7"
+            );
+          iframe.setAttribute("width", "100%");
+          iframe.setAttribute("height", "300px");
+          iframe.setAttribute("frameborder", "0");
+          iframe.setAttribute("scrolling", "no");
+          container.appendChild(iframe);
+        })();
+      </script>
+
+    </section>
+
+
+
+
+
+
+
+    <section id="equipment-price">
+      <h2>Equipment Price</h2>
+
+      <div class="equipment-container">
+        <div class="equipment-card">
+          <img src="image/TRACTOR (2).jpg" alt="Product 1">
+          <div class="equipment-details">
+            <h3>The Germany Made Tractor Price drop from 2500$ to $1999. The news was conform by Agriculture minister
+            </h3>
+            <p>$1999</p>
+          </div>
+        </div>
+
+        <div class="equipment-card">
+          <img src="image/TRACTOR (3).jpg" alt="Product 2">
+          <div class="equipment-details">
+            <h3>Nepal Government Made tractor in the market</h3>
+            <p>$299</p>
+          </div>
+        </div>
+
+        <div class="equipment-card">
+          <img src="image/TRACTOR (1).jpg" alt="Product 3">
+          <div class="equipment-details">
+            <h3>Highly Advanced technology </h3>
+            <p>$149</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="notice">
+      <!-- <h2>Notice</h2> -->
+      <!-- Notice content goes here -->
+
+
+      <section id="notice-board">
+        <h1>Notice</h1>
+
+
+        <div class="notice-board">
+
+          <div class="notice-card">
+            <img src="image/NOTICE 2.jpg" alt="Notice">
+            <p>Nepal Government to give 1 lakh to diaster area Farmer</p>
+          </div>
+          <div class="notice-board">
+
+            <div class="notice-card">
+              <img src="image/NOTICE.jpg" alt="Notice">
+              <p>Interest Rate Decrease for Farmer</p>
+            </div>
+            <div class="notice-board">
+
+              <div class="notice-card">
+                <img src="image/notice4.jpg" alt="Notice">
+                <p>Import of Cardamom is Banned</p>
+              </div>
+            </div>
+
+            <script>
+              // Upload notice\
+              function uploadNotice(event) {
+                var file = event.target.files[0];
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                  var noticeCard = document.createElement("div");
+                  noticeCard.className = "notice-card";
+
+                  var image = document.createElement("img");
+                  image.src = e.target.result;
+                  image.alt = "Notice";
+
+                  var noticeText = document.createElement("p");
+                  noticeText.textContent = "New Notice";
+
+                  noticeCard.appendChild(image);
+                  noticeCard.appendChild(noticeText);
+
+                  var noticeBoard = document.querySelector(".notice-board");
+                  noticeBoard.appendChild(noticeCard);
+                };
+
+                reader.readAsDataURL(file);
+              }
+            </script>
+      </section>
+
+
+
+
+
+
+      <section id="about-us">
+        <h2>About Us</h2>
+        <!-- About Us content goes here -->
+        <!DOCTYPE html>
+
+        <section id="about-us">
+
+          <div class="about-content">
+            <div class="about-image">
+              <img src="image/suraj.jpg" alt="About Us Image">
+              <img src="image/lok.jpg" alt="About Us Image">
+
+            </div>
+            <div class="about-text">
+              <P>We are the student of BCA IV semester of Advanced College Of Engineering and Mangement. We are delight
+                to
+                get some exciting project on out II year projcet.</P>
+            </div>
+
+            <div class="contact-details">
+              <h3>Contact Us</h3>
+              <p>Email: smartkheti@gmail.com</p>
+              <p>Phone: 9867199038</p>
+              <p>Address: Banganga-11, Kapilvastu Nepal</p>
+            </div>
+          </div>
+        </section>
+</body>
+
+</section>
+
+<footer>
+  <p>&copy; Suraj Acharya And Lokraj Project
+    </section>
+    <footer>
+      <p>&copy; 2023 Smartkheti. All rights reserved.</p>
+    </footer>
+    </body>
+
+</html>

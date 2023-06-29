@@ -1,0 +1,248 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color:#1f7a1f;
+}
+
+header img{
+  width: 150px;
+}
+
+nav {
+  background-color: #28028f;
+  color: #a4e60b;
+  padding: 1.5rem;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  /* text-align: center; */
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #dcdcdc;
+  transition: .3s;
+}
+
+section {
+  padding: 20px;
+}
+
+footer {
+  background-color: #1f7a1f;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+}
+/* CSS styles */
+#market-price {
+
+background-size: cover;
+background-position: center;
+padding: 0px;
+}
+
+.table-container {
+background-color: rgba(0, 0, 0, 0.7);
+padding: 20px;
+border-radius: 8px;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 20px;
+}
+
+th, td {
+padding: 10px;
+text-align: left;
+}
+
+thead {
+background-color: #1f7a1f;
+color: #1a1616;
+}
+
+tbody tr:nth-child(even) {
+background-color: #141111;
+}
+#market-price h2, #market-price p{
+color: #f1eaea !important;
+}
+  /* CSS styles */
+  #equipment-price {
+    
+    background-color: #069475;
+    padding: 20px;
+  }
+  
+  .equipment-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .equipment-card {
+    width: 300px;
+    background-color: #141111;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  .equipment-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .equipment-card h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .equipment-card p {
+    font-size: 16px;
+    color: #fff8f8;
+  }
+
+/* CSS styles */
+#notice{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 20px;
+  /* background-image: */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+#home{
+  /* margin-top: 1rem; */
+  height: 500px;
+  background-image: url('./image/farmer-plows-a-field_20190921084105.jpg');
+  color: #000;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.notice-board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.notice-card {
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 5px #fff(255, 255, 255, 0.3);
+}
+
+.notice-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.notice-card p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.upload-btn {
+  background-color: #0aaa0a;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.upload-btn:hover {
+  background-color: #145214;
+}
+
+
+/* CSS styles */
+#About_Us {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+section {
+  padding: 40px;
+  background-color: #069475;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-image {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.about-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-text {
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.contact-details {
+  margin-top: 40px;
+}
+
+.contact-details p {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,23 @@
+<section id="weather-forecast">
+ 
+    <!-- Weather Forecast content goes here -->
+    <section id="weather-forecast">
+      <h2>Weather Forecast</h2>
+      <div id="weather-widget"></div>
+    </section>
+    
+    <script>
+      // Embedding weather forecast widget
+      (function () {
+        var container = document.getElementById("weather-widget");
+        var iframe = document.createElement("iframe");
+        iframe.setAttribute("src", "https://openweathermap.org/weathermap?basemap=map&cities=true&layer=temperature&lat=28.3949&lon=84.1240&zoom=7");
+        iframe.setAttribute("width", "100%");
+        iframe.setAttribute("height", "300px");
+        iframe.setAttribute("frameborder", "0");
+        iframe.setAttribute("scrolling", "no");
+        container.appendChild(iframe);
+      })();
+    </script>
+    
+  </section>

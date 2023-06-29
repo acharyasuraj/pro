@@ -1,0 +1,50 @@
+<section id="notice-board">
+    
+    
+    <div class="notice-board">
+
+      <div class="notice-card">
+      <img src="image/NOTICE 2.jpg" alt="Notice">
+      <p>Nepal Government to give 1 lakh to diaster area Farmer</p>
+      </div>
+      <div class="notice-board">
+      
+      <div class="notice-card">
+      <img src="image/NOTICE.jpg" alt="Notice">
+      <p>Interest Rate Decrease for Farmer</p>
+      </div>
+      <div class="notice-board">
+      
+      <div class="notice-card">
+      <img src="image/notice4.jpg" alt="Notice">
+      <p>Import of Cardamom is Banned</p>
+      </div>
+      </div>
+
+  <script>
+    // Upload notice
+    function uploadNotice(event) {
+      var file = event.target.files[0];
+      var reader = new FileReader();
+
+      reader.onload = function (e) {
+        var noticeCard = document.createElement("div");
+        noticeCard.className = "notice-card";
+
+        var image = document.createElement("img");
+        image.src = e.target.result;
+        image.alt = "Notice";
+
+        var noticeText = document.createElement("p");
+        noticeText.textContent = "New Notice";
+
+        noticeCard.appendChild(image);
+        noticeCard.appendChild(noticeText);
+
+        var noticeBoard = document.querySelector(".notice-board");
+        noticeBoard.appendChild(noticeCard);
+      };
+
+      reader.readAsDataURL(file);
+    }
+  </script>
